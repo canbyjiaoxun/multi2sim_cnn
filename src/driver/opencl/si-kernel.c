@@ -561,7 +561,7 @@ static void opencl_si_kernel_load_metadata_v3(struct opencl_si_kernel_t *kernel)
 
                 // try to skip unknown metadata by Yeseong  
                 //printf("kernel '%s': unknown metadata entry '%s'\n", kernel->name, token);   
-		printf("kernel '%s': unknown metadata entry\n");
+		printf("unknown metadata entry\n");
                 str_token_list_free(token_list);                                           
 		continue; 
                 
